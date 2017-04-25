@@ -1,1 +1,5 @@
-# Minesweeper_Game
+PROJECT TITLE: Minesweeper game
+PURPOSE OF PROJECT: implements a text-based Minesweeper in Java
+ABOUT:
+  Minesweeper consists of a rectangular grid of covered tiles, some of which contain a “mine” underneath.The game is played by uncovering or marking tiles, one at a time.  When a tile is uncovered, two things can happen: If the uncovered tile contains a mine, the player immediately loses the game.If the uncovered tile does not contain a mine, it shows the number of tiles immediately adjacent to it (somewhere between 0 and 8) that contain mines. The objective of the game is to correctly mark all of the tiles containing mines, while uncovering all the tiles without mines.Once this is done, the player wins.
+  The game allows the player to specify the size of the grid(in rows and columns)and the desired number of mines to place. Then, the player is asked which tile to uncover or mark, displays a text representation of the board after each action. It doesn't place the mines until after the player's first move. Uncovering a tile without a mine shows the number of adjacent tiles that contain mines and uncovers all of it's adjacent tiles if they have 0 mines. Marking a tile that’s already marked has the effect of unmarking it.The player can uncover or mark tiles until he/she looses or wins.
