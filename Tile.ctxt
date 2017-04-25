@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ isUncoveredTile()
+comment1.params=uncoveredTiles
+comment1.target=void\ setUncoveredTile(boolean)
+comment2.params=
+comment2.target=boolean\ isMarkedTile()
+comment3.params=markedTiles
+comment3.target=void\ setMarkedTile(boolean)
+comment4.params=
+comment4.target=boolean\ isMineTile()
+comment5.params=mineTiles
+comment5.target=void\ setMineTile(boolean)
+comment6.params=
+comment6.target=int\ getAdjacentMine()
+comment7.params=adjacentMines
+comment7.target=void\ setAdjacentMine(int)
+comment8.params=
+comment8.target=Tile()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
